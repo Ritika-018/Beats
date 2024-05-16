@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+    color:rgb(208, 221, 221);
+    
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+     
+}
+
+/* LAYER1 */
+.layer1{
+    height:90vh;
+    width:100vw;
+    background-color: black;
+    padding-top:1rem;
+    padding-left:1rem;
+    display:flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.container{
+    height:100vh;
+    width:65%;
+    background-color: black;
+}
+.navbar{
+    height:8%;
+    width:100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.options{
+   
+    width:70%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.options a{
+    font-size: 1.5rem;
+    font-weight: 550;
+    color:rgb(208, 221, 221);
+}
+.shop-button{
+    height:80%;
+    width:8%;
+    font-size: 1.5rem;
+    font-weight: 550;
+    background-color: #211c22;
+    text-align: center;
+    padding-top: 1rem;
+    border-radius: 15px;
+    border-top: 1px solid #bfced3 ;
+    border-left: 1px solid #bfced3;
+}
+.shop-button a{
+    color:rgb(208, 221, 221);
+}
+.hero1{
+    margin-left:15%;
+}
+.hero1 img{
+    height:15%;
+    width:45%;
+    margin-top:5%;
+}
+.hero1 h2{
+    font-size: 2.5rem;
+    margin-top:3%;
+}
+.hero1 h6{
+    font-size:1.5rem;
+    margin-top:3%;
+}
+.hero1 p{
+    font-size:1.3rem;
+    margin-top:3%;
+}
+.bag{
+    height:12%;
+    width:25%;
+    background-color:#211c22;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.bag img{
+    
+    height: 30px;
+    width:30px;
+}
+.bag span{
+    font-weight: 600;
+}
+
+.logos{
+    height: 10vh;
+    width:100vw;
+    background-color: black;
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* LAYER2 */
+.layer2{
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+}
+.specs-logo{
+    margin-top: 2%;
+    height: 15%;
+    width: 20%;
+    
+}
+.hero2{
+  
+    height:75%;
+    width:70%;
+    margin-left:22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.icons{
+   
+    height:70%;
+}
+.icons p{
+    font-size: 1.1rem;
+}
+#icon1{
+    
+    height:20%;
+    width:100%;
+    margin:25%;
+    position: relative;
+}
+.battery{
+    position: absolute;
+    right:45%;
+}
+.charger{
+    position: absolute;
+    right:45%;
+}
+.specs-image{
+    margin-right: 30%;
+}
+
+/* LAYER3 */
+.layer3{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: black;
+    
+}
+.container2{
+    height: 100%;
+    width: 70%;
+    text-align: center;
+   
+    margin-left:15%;
+}
+.case-logo{
+    margin-top: 2%;
+    height: 10%;
+    width: 20%;
+    
+}
+.hero3{
+    
+    height:70%;
+    width:50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details3 p{
+    font-size: 1.3rem;
+}
+.more-info{
+    height:60px;
+    width: 200px;
+    background-color: #211c22;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:20px;
+}
+
+/* LAYER4 */
+.layer4{
+    background-color: #211c22;
+    height:50vh;
+    width: 100vw;
+}
+.container4{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.buyNow {
+  
+    margin:5%;
+    
+}
+.hero4 h3{
+    font-size: 2rem;
+
+}
+.hero4 p{
+    font-size: 1.2rem;
+    margin:5px;
+}
+.buy-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:55%;
+    width:55%;
+    background-color: black;
+    margin-top:5%;
+    border-radius:10px;
+}
+
+/* LAYER5 */
+.layer5{
+    height:180vh;
+    width:100vw;
+    overflow: hidden;
+    background-color:black;
+   
+}
+.choose-image{
+   
+    margin-top: 2%;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    
+}
+.container5{
+   
+    height:80%;
+    width:50%;
+    margin-left:25%;
+}
+.rows{
+    
+    height:30%;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:2%;
+}
+.boxes{
+   
+    height: 100%;
+    width:30%;
+}
+.details5{
+    
+    height: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.details5 p{
+    font-size: 1.2rem;
+    margin:5px;
+    font-weight: 600;
+}
+
+/* LAYER6/FOOTER */
+
+.footer{
+    height: 35vh;
+    width:100vw;
+   
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+.container6{
+    height: 95%;
+    width:98%;
+    margin:1%;
+   
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo6{
+    padding-top:1%;
+}
+.up-arrow{
+    padding-top:1%;
+}
+
+.coloum{
+   
+    width: 13%;
+    line-height: 2rem;
+    padding-top:1%;
+    
+}
+.coloum span{
+    font-size: 1.8rem;
+    font-weight: 500;
+    
+}
+.coloum a{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.coloum3{
+  
+    padding-top:1%;
+    width:20%;   
+}
+.coloum3 input{
+    height:70%;
+    width:65%;
+    margin-top: 5px;
+}
+.button6{
+    display:flex;
+    height: 40px;
+    background-color: #211c22;
+}
+.icon6 img{
+    margin-top:5%;
+    margin-right:5%;
+}
+.subscribe{
+    height:80%;
+    width:30%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:1.2rem;
+    margin-top:1%;
+    margin-left:2%;
+}
